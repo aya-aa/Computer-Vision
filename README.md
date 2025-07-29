@@ -6,14 +6,16 @@ This Django-based API provides endpoints for detecting objects/logos in images a
 
 ##  Features
 
-- **YOLOv8 Integration** for logo/object detection.
+- **YOLOv11 Integration** for logo/object detection.
 - **OCR support** for text extraction from detected areas in images.
 - Accepts **multiple image uploads**.
 - Supports **video upload** and returns logo appearance intervals with average confidence.
 
 ## Requirements
 
-Make sure to install the dependencies listed in the requirements.md
+Make sure to install the dependencies listed in the requirements.txt
+pip install -r requirements.txt
+
 
 
 
